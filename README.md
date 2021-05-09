@@ -4,8 +4,13 @@ A simple Java application to convert between .avi .mp4 and .mkv files made for t
 Converts a video file into a target file format.
 ## How to run
 At first you want to clone this repo by doing<br>`git clone https://github.com/AttiliaTheHun/Video-Converter.git`<br>
+### Intellij IDEA
 The application was created as IntelliJ IDEA project, so the easiest way to run it is to open the directory as a project in IDEA, select _MainFrame.java_ and run _MainFrame.main()_.<br>
+### Other IDEs
 For other IDEs it should work very similarly, you just need to make sure the code can find files under _/src/main/resources/lib/_, they are crucial for the conversion.<br>
+### IDEless people
+Compile the classes using *javac* and then put the /src/main/resources/lib/ folder at the same level
+### Uh, jar?
 The application should work when bundled into _.jar_, too, however running .jars often creates a lot of weird errors (some of them triggered by incorrect .jar creation proccess) which are not nice to fix, so I am not going to give a .jar bundling guide here :)
 # Shhh
 You should probably try the program before reading further
