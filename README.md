@@ -19,6 +19,7 @@ Okey, read then...
 ## How does it work
 Right, so first get familiar with the JavaJam topic<br>
 > A program that looks legit and then rick-rolls you
+<br>
 Now I can confess this application does not perform any onversion at all. You select a video of yours you want to select, but all the program does is that he copies Rick Astley's *Never Gonna Give You Up*, in the output format you chose, from /resources/lib/ and drops it into the place where the converted video should have appeared. When you open the converted video to check if it works, the quality, etc., guess what you get... Rickrolled, lmao!<br>
 <br>
 Just for clarification files under /resources/lib/ are video files of  Rick Astley's *Never Gonna Give You Up* in the formats of conversion, renamed to look like a converting library and shortened for their extension so they are not so obvious (the extension is important only when the file is about to be opened, and the user is not suppossed to know about these)
